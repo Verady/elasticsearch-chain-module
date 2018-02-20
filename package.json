@@ -1,0 +1,43 @@
+{
+  "name": "elasticsearch-chain-module",
+  "version": "1.0.0",
+  "description": "Chain module for connection to an ES source for tx querries",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "author": "Nathan Eppinger <neppinger3@gmail.com>",
+  "contributors": [
+    "Ian Patton",
+    "Gordon Hall"
+  ],
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "elasticsearch": "^14.0.0",
+    "boscar": "^2.0.0",
+    "bunyan": "^1.8.12",
+    "bunyan-rotating-file-stream": "^1.6.3",
+    "commander": "^2.9.0",
+    "json-stable-stringify": "^1.0.1",
+    "jsonrpc-lite": "^1.3.0",
+    "merge": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "ms": "^2.0.0",
+    "mtree": "^1.0.0",
+    "npid": "^0.4.0",
+    "rc": "^1.2.1",
+    "semver": "^5.1.0",
+    "tiny": "0.0.10"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "mocha": "^2.2.4"
+  },
+  "repository": {
+    "type": "git"
+    "url": "https://github.com/Verady/elasticsearch-chain-module.git"
+  }
+}
